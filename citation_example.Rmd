@@ -1,0 +1,35 @@
+---
+title: "Seminar_12_part2"
+author: "Shaibu Damilola Omojola"
+date: "2025-07-04"
+
+output: html_document
+
+bibliography:
+  
+ bib/DA_Citation_2024.bib
+---
+  
+  
+ -bibliography:
+  
+  
+  
+@luedelingDecisionFocusedAgriculturalResearch2016 mentioned the importance of agroforestry
+
+
+ [@doDecisionAnalysisAgroforestry2020]
+ 
+ 
+ -citation()
+ 
+ 
+ -write_bib
+ 
+ 
+ 
+```{r, include=FALSE}
+knitr::write_bib(c("knitr", "decisionSupport", "dplyr"), width = 60, "bib/packages.bib")
+```
+ 
+ 
